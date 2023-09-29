@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@font-face {
+    font-family: "robotoREG";
+    src: url(./../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "robotoBOLD";
+    src: url(./../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: "robotoREG";
+}
+
+/* ----------------------------Header------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_img {
+    text-align: right;
+    padding-bottom: 80px;
+
+}
+
+.header_img img {
+    height: 648px;
+}
+
+.logo {
+    padding-top: 38px;
+    padding-left: 91px;
+}
+
+h2 {
+    font-family: "robotoBOLD";
+    font-size: 1.5rem;
+    line-height: 28.80px;
+}
+
+h3 {
+    font-size: 0.75rem;
+    line-height: 14.40px;
+}
+
+.top_header {
+    display: flex;
+    position: absolute;
+    margin-top: 350px;
+    padding-left: 144px;
+    width: 600px;
+}
+
+.top_header p {
+    font-size: 1.125rem;
+}
+
+.rocket {
+    height: 30px;
+}
+
+.top_header > div > a {
+    display: block;
+    color: #FF3571;
+    font-size: 0.875rem;
+    padding-top: 50px;
+}
+
+.people {
+    height: 600px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 300px;
+    animation: UpDown 4s infinite;
+}
+
+@keyframes UpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+h1 {
+    font-family: "robotoBOLD";
+    line-height: 64.80px;
+    font-size: 3.375rem;
+    padding-bottom: 10px;
+}
+
+/* ----------------------Main------------------------------- */
+
+.images img{
+    width: 100vw;
+}
+
+.information_1 {
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 254px;
+
+}
+
+.idea {
+    display: block;
+    font-size: 2.375rem;
+    line-height: 45.60px;
+    width: 300px;
+    margin-right: 300px;
+}
+
+.this_year {
+    width: 600px;
+    display: block;
+    font-size: 1.125rem;
+    line-height: 36px;
+}
+
+.idea img {
+    height: 60px;
+}
+
+.information_2 {
+    width: 500px;
+    padding-left: 450px;
+
+}
+
+.challenge {
+    padding-block: 200px;
+    font-size: 2.375rem;
+    display: block;
+    width: 700px;
+}
+
+.information_3 {
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 300px;
+    flex-wrap: wrap;
+    column-gap: 180px;
+    row-gap: 100px;
+}
+
+.grid {
+    display: flex;
+}
+
+h4 {
+    font-size: 1.17rem;
+    font-family: "robotoBOLD";
+    padding-bottom: 10px;
+}
+
+.information_3 p {
+    font-size: 0.875rem;
+    line-height: 28px;
+}
+
+.column_1 {
+    width: 50px;
+    padding-right: 20px;
+}
+
+.column_2 {
+    width: 300px
+}
+
+.information_4 {
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.75rem;
+}
+
+.information_4 p {
+    font-size: 0.875;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    margin-inline: 720px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    justify-content: center;
+    row-gap: 200px;
+}
+
+.images-article {
+    height: 405px;
+}
+
+.right, .left {
+    width: 670px;
+}
+
+h6 {
+    font-size: 3.25rem;
+    color: #DDDDDD;
+    padding-bottom: 30px;
+}
+
+.right_title {
+    padding-block: 30px;
+    font-family: "robotoBOLD";
+}
+
+.right_text {
+    font-size: 0.875rem;
+    line-height: 28px;
+}
+
+/* -------------------------------Footer----------------------------------- */
+
+footer {
+    text-align: center;
+}
+
+.footer_headline {
+    padding-top: 300px;
+    font-size: 1.75rem;
+    padding-bottom: 25px;
+}
+
+.footer_text {
+    font-size: 0.875rem;
+    line-height: 18.20px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+footer input {
+    width: 660px;
+    height: 90px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+    border: none;
+    box-shadow: 0 0 30px rgba(192, 192, 192, 0.291);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    color: white;
+    background-color: #FF3571;
+    font-size: 1.2rem;
+    padding: 20px 82px;
+    width: 250px;
+    margin: 20px auto 100px auto;
+}
+
+.end {
+    font-size: 1.125rem;
+    display: flex;
+    line-height: 27px;
+    align-items: baseline;
+    padding-left: 130px;
+}
+
+.end img {
+    height: 25px;
+    padding-left: 15px;
+}
